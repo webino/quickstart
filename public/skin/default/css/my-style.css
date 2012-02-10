@@ -1,0 +1,36 @@
+body {
+    background: #fff;
+}
+header, article, footer{
+    width: 800px;
+    margin: 0px auto;
+}
+.active>a{
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    margin: 10px 0;
+}
+table th {
+    text-align: left;
+}
+table .last {
+    text-align: right;
+}
+.gallery li{
+    display: block;
+    float: left;
+    margin: 4px;
+}
+footer{
+    margin: 20px auto;
+    border-top: 2px solid #666;
+    clear: both;
+}
+footer .copyr{
+    float: left;
+}
+footer .power{
+    float: right;
+}
